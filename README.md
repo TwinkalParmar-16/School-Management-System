@@ -4,7 +4,7 @@
 parents of their child’s safety and progress, schools are using school
 management software nowadays.
 - This software boasts a variety of features that improve the overall
-administration of schools.Make the overall process easy.
+administration of schools. Make the overall process easy.
 
 ## Sides
 
