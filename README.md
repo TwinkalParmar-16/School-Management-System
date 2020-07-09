@@ -1,5 +1,6 @@
 # School Management System
 
+-Developed an application to digitize the management of school academics.
 - To better perform the functions of school management and assure
 parents of their child’s safety and progress, schools are using school
 management software nowadays.
