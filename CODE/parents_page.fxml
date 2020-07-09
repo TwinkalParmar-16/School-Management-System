@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="373.9996337890625" prefWidth="997.0000779296824" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="school_mangement.Parents_pageController">
+  <children>
+    <VBox id="VBox" alignment="CENTER" layoutX="38.0" layoutY="133.0" spacing="5.0">
+      <children>
+        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@assests/images/tt2.png" />
+          </image>
+        </ImageView>
+        <Button mnemonicParsing="false" onAction="#show_timetable" text="TIMETABLE">
+          <font>
+            <Font name="System Bold" size="20.0" fx:id="x1" />
+          </font>
+        </Button>
+      </children>
+    </VBox>
+    <VBox id="VBox" alignment="CENTER" layoutY="133.0" spacing="5.0" AnchorPane.leftAnchor="300.0">
+      <children>
+        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@assests/images/results.png" />
+          </image>
+        </ImageView>
+        <Button font="$x1" mnemonicParsing="false" onAction="#show_result" text="RESULT" />
+      </children>
+    </VBox>
+    <VBox id="VBox" alignment="CENTER" layoutY="122.0" spacing="5.0" AnchorPane.leftAnchor="500.0">
+      <children>
+        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@assests/images/notification.jpg" />
+          </image>
+        </ImageView>
+        <Button font="$x1" mnemonicParsing="false" onAction="#show_notification" text="NOTIFICATION" />
+      </children>
+    </VBox>
+    <VBox id="VBox" alignment="CENTER" layoutX="748.0" layoutY="122.0" spacing="5.0">
+      <children>
+        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@assests/images/forgot_password.jpg" />
+          </image>
+        </ImageView>
+        <Button font="$x1" mnemonicParsing="false" onAction="#update_password" text="CHANGE PASSWORD" />
+      </children>
+    </VBox>
+    <HBox id="HBox" alignment="CENTER" layoutX="405.0" layoutY="28.0" spacing="5.0">
+      <children>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome!!">
+          <font>
+            <Font name="System Bold" size="40.0" />
+          </font>
+        </Text>
+      </children>
+    </HBox>
+  </children>
+  <stylesheets>
+    <URL value="@main.css" />
+  </stylesheets>
+</AnchorPane>

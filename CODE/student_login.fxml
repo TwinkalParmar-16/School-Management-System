@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="-1.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="school_mangement.Student_loginController">
+  <children>
+    <VBox id="VBox" alignment="CENTER" layoutX="0.0" layoutY="0.0" spacing="5.0">
+      <children>
+        <HBox id="HBox" alignment="CENTER" prefHeight="150.0" prefWidth="600.0" spacing="5.0">
+          <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@assests/images/student.png" />
+              </image>
+            </ImageView>
+          </children>
+        </HBox>
+        <VBox id="VBox" alignment="CENTER" prefWidth="-1.0" spacing="5.0">
+          <children>
+            <TextField fx:id="t1" alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="256.0" promptText="USERNAME">
+              <VBox.margin>
+                <Insets left="150.0" right="150.0" top="25.0" />
+              </VBox.margin>
+            </TextField>
+            <PasswordField fx:id="t2" prefHeight="40.0" prefWidth="256.0" promptText="PASSWORD">
+              <VBox.margin>
+                <Insets left="150.0" right="150.0" />
+              </VBox.margin>
+            </PasswordField>
+          </children>
+        </VBox>
+      </children>
+    </VBox>
+    <Button layoutX="246.0" mnemonicParsing="false" onAction="#login" text="LOGIN" AnchorPane.topAnchor="280.0" />
+  </children>
+  <stylesheets>
+    <URL value="@apps.css" />
+  </stylesheets>
+</AnchorPane>

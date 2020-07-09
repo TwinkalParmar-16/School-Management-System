@@ -1,0 +1,149 @@
+.fn-14{
+    -fx-font-size:14px;
+        
+}
+.fn-16{
+    -fx-font-size:16px;
+        
+}
+
+.fn-18{
+    -fx-font-size:18px;
+        
+}
+
+.fn-24{
+    -fx-font-size:24px;
+        
+}
+.fn-32{
+    -fx-font-size:32px;
+        
+}
+.fn-48{
+    -fx-font-size:48px;
+        
+}
+.fn-64{
+    -fx-font-size:64px;
+}     
+.txt-center{
+    -fx-text-alignment:center;
+}
+.txt-justify{
+    -fx-text-alignment:justify;
+}
+.txt-left{
+    -fx-text-alignment:left;
+}.txt-right{
+    -fx-text-alignment:right;
+}
+
+
+/*colors*/
+
+.fill-light-grey
+{
+    -fx-fill:#ececec;
+    -fx-text-fill:#ececec;
+    
+}
+
+.fill-grey{
+    -fx-fill:#9c9c9c;
+    -fx-text-fill:#9c9c9c; 
+    
+}
+
+
+.fill-dark{
+    -fx-fill:#4f5d55;
+    -fx-text-fill:#4f5d55;
+    
+}
+
+.fill-white{
+    
+    -fx-fill:#ffffff;
+    -fx-text-fill:#ffffff;
+    
+}
+.fill-red{
+    -fx-fll:#e86829;
+    -fx-text-fill:#e86829;
+}
+.fill-green{
+    -fx-fill:#8bc34a;
+    -fx-text-fill:#8bc34a;
+}
+/*background-colors*/
+
+.back-white{
+    -fx-background-colors:#ffffff;
+}
+.back-transparent
+{
+     -fx-background-colors:transparent;
+     -fx-background-radius:0px;
+}
+.back-Light-grey
+{
+    -fx-background-color:#ececec;
+    
+    
+}
+.back-green{
+    -fx-background-color:#8bc34a;
+}
+/*Shapes*/
+.flat{
+    -fx-background-radius:0px;
+    
+}
+/*borders*/
+.border-2px{
+    -fx-border-width:2px;
+}
+.border-light-grey{
+    -fx-border-color:#ececec;
+}
+
+/*hovers*/
+.hover-HANDD:hover{
+    -fx-cursor:hand;
+}
+
+.hover-dark-Grey:hover{
+    -fx-background-color: #d2d2d2;
+}
+.hover-transparent:hover{
+    -fx-background-color: transparent;
+    
+}
+
+.button{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+    -fx-text-fill: #828282;
+}
+
+.button:focused {
+    -fx-border-color: transparent, black;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid,segments(1, 2);
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+.button:pressed {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+.button-abc1{
+    -fx-border-color: transparent;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="410.0" prefWidth="619.9999000000025" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="school_mangement.Parent_notificationController">
+  <children>
+    <HBox id="HBox" alignment="CENTER" layoutX="0.0" layoutY="7.0" prefWidth="600.0" spacing="5.0">
+      <children>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="QUERY">
+          <font>
+            <Font name="System Bold" size="30.0" />
+          </font>
+        </Text>
+      </children>
+    </HBox>
+    <VBox id="VBox" alignment="CENTER" layoutX="0.0" layoutY="87.0" prefWidth="593.0" spacing="5.0">
+      <children>
+        <TextArea fx:id="t1" prefWidth="592.9998779296875" promptText="POST YOUR COMMENT / QUERY" wrapText="true">
+          <VBox.margin>
+            <Insets left="30.0" right="10.0" />
+          </VBox.margin>
+        </TextArea>
+      </children>
+    </VBox>
+    <HBox id="HBox" alignment="CENTER" layoutX="0.0" layoutY="321.0" prefWidth="587.0" spacing="5.0" />
+    <Button layoutX="251.0" layoutY="54.0" mnemonicParsing="false" onAction="#show" text="SHOW" />
+  </children>
+  <stylesheets>
+    <URL value="@apps.css" />
+  </stylesheets>
+</AnchorPane>

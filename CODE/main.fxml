@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" minHeight="528.9390258789062" prefHeight="528.9390258789062" prefWidth="917.6666870117188" styleClass="mainFxmlClass, hover-HANDD, hover-transparent" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="school_mangement.MainController">
+  <children>
+    <ImageView fitHeight="688.2499988943769" fitWidth="917.6666870117188" layoutX="0.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@assests/images/final.jpg" />
+      </image>
+    </ImageView>
+    <Button fx:id="b1" layoutX="54.0" layoutY="435.0" minHeight="94.0" minWidth="165.0" mnemonicParsing="false" onAction="#LOGIN" prefHeight="94.0" prefWidth="165.0" styleClass="hover-HANDD, null, hover-transparent, button-abc1" text="LOGIN" />
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="46.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@assests/images/mylogin1.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="210.0" fitWidth="210.0" layoutX="224.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@assests/images/signup.png" />
+      </image>
+    </ImageView>
+    <Button id="b1" fx:id="b2" layoutX="246.0" layoutY="435.0" minHeight="94.0" minWidth="165.0" mnemonicParsing="false" onAction="#SIGNUP" prefHeight="94.0" prefWidth="165.0" styleClass="hover-HANDD, null, hover-transparent, button-abc1" text="SIGNUP" />
+  </children>
+  <stylesheets>
+    <URL value="@apps.css" />
+  </stylesheets>
+</AnchorPane>

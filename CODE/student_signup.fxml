@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="b1" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="school_mangement.Student_signupController">
+  <children>
+    <HBox id="HBox" alignment="CENTER" layoutX="0.0" layoutY="0.0" prefHeight="150.0" prefWidth="600.0" spacing="5.0">
+      <children>
+        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@assests/images/student.png" />
+          </image>
+        </ImageView>
+      </children>
+    </HBox>
+    <TextField fx:id="t1" alignment="CENTER_LEFT" layoutX="182.0" layoutY="167.0" prefHeight="40.0" prefWidth="256.0" promptText="USERNAME" />
+    <Button layoutX="265.0" layoutY="344.0" mnemonicParsing="false" onAction="#signup" text="SIGNUP" />
+    <PasswordField fx:id="t2" layoutX="182.0" layoutY="229.0" prefHeight="40.0" prefWidth="256.0" promptText="PASSWORD" />
+    <PasswordField id="t2" fx:id="t3" layoutX="182.0" layoutY="286.0" prefHeight="40.0" prefWidth="256.0" promptText="RE-ENTER PASSWORD" />
+  </children>
+  <stylesheets>
+    <URL value="@apps.css" />
+  </stylesheets>
+</AnchorPane>

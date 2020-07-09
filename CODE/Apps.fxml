@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="373.9996337890625" prefWidth="997.0000779296824" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="school_mangement.AppsController">
+  <children>
+    <HBox id="HBox" alignment="CENTER" layoutX="0.0" layoutY="122.0" prefWidth="997.0" spacing="5.0">
+      <children>
+        <VBox id="VBox" alignment="CENTER" spacing="5.0">
+          <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@assests/images/business-intelligence-dashboard-icon_75274.png" />
+              </image>
+            </ImageView>
+            <Button fx:id="b1" mnemonicParsing="false" onAction="#add_dashboard" text="DASHBOARD">
+              <font>
+                <Font name="System Bold" size="20.0" fx:id="x1" />
+              </font>
+            </Button>
+          </children>
+          <HBox.margin>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" fx:id="x2" />
+          </HBox.margin>
+        </VBox>
+        <VBox id="VBox" alignment="CENTER" spacing="5.0" HBox.margin="$x2">
+          <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@assests/images/student.png" />
+              </image>
+            </ImageView>
+            <Button fx:id="b2" font="$x1" mnemonicParsing="false" onAction="#show_students" text="STUDENT" />
+          </children>
+        </VBox>
+        <VBox id="VBox" alignment="CENTER" spacing="5.0" HBox.margin="$x2">
+          <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@assests/images/teachers.jpg" />
+              </image>
+            </ImageView>
+            <Button fx:id="b3" font="$x1" mnemonicParsing="false" onAction="#show_teachers" text="TEACHER" />
+          </children>
+        </VBox>
+        <VBox id="VBox" alignment="CENTER" spacing="5.0" HBox.margin="$x2">
+          <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@assests/images/parents.png" />
+              </image>
+            </ImageView>
+            <Button fx:id="b4" font="$x1" mnemonicParsing="false" onAction="#show_parents" text="PARENT" />
+          </children>
+        </VBox>
+        <VBox id="VBox" alignment="CENTER" spacing="5.0" HBox.margin="$x2">
+          <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@assests/images/tt2.png" />
+              </image>
+            </ImageView>
+            <Button fx:id="b5" font="$x1" mnemonicParsing="false" onAction="#show_timetable" text="TIME TABLE" />
+          </children>
+        </VBox>
+      </children>
+    </HBox>
+    <HBox id="HBox" alignment="CENTER" layoutX="405.0" layoutY="28.0" spacing="5.0">
+      <children>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome!!">
+          <font>
+            <Font name="System Bold" size="40.0" />
+          </font>
+        </Text>
+      </children>
+    </HBox>
+  </children>
+  <stylesheets>
+    <URL value="@main.css" />
+  </stylesheets>
+</AnchorPane>

@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="648.000006811526" prefWidth="971.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="school_mangement.parentController">
+  <children>
+    <VBox layoutX="-6.0" layoutY="74.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="-1.0" prefWidth="-1.0">
+      <children>
+        <HBox prefHeight="-1.0" prefWidth="-1.0" styleClass="back-white">
+          <children>
+            <HBox alignment="TOP_CENTER" prefHeight="-1.0" prefWidth="171.0" styleClass="hover-HANDD, back-Light-grey, hover-dark-Grey">
+              <children>
+                <VBox id="VBox" alignment="TOP_CENTER" spacing="5.0">
+                  <children>
+                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="fn-24, fill-dark" text="Teacher" />
+                    <HBox alignment="CENTER_RIGHT" blendMode="SRC_OVER" prefHeight="-1.0" prefWidth="-1.0" styleClass="fn-14, fill-dark">
+                      <children>
+                        <HBox id="HBox" alignment="CENTER" spacing="5.0" HBox.hgrow="ALWAYS">
+                          <children>
+                            <Button mnemonicParsing="false" styleClass="back-transparent, fill-dark, fn-14" text="34">
+                              <stylesheets>
+                                <URL value="@apps.css" />
+                              </stylesheets>
+                            </Button>
+                            <Text scaleX="1.0" scaleY="1.2530638154674498" strokeType="OUTSIDE" strokeWidth="0.0" text="GO" />
+                          </children>
+                        </HBox>
+                      </children>
+                      <stylesheets>
+                        <URL value="@apps.css" />
+                      </stylesheets>
+                    </HBox>
+                  </children>
+                  <stylesheets>
+                    <URL value="@apps.css" />
+                  </stylesheets>
+                </VBox>
+              </children>
+              <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+              </padding>
+              <stylesheets>
+                <URL value="@apps.css" />
+              </stylesheets>
+              <HBox.margin>
+                <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+              </HBox.margin>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="-1.0" prefWidth="182.00009999999747" styleClass="hover-dark-grey, hover-HANDD, back-Light-grey, hover-dark-Grey">
+              <children>
+                <VBox id="VBox" alignment="TOP_CENTER" spacing="5.0">
+                  <children>
+                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="fn-24, fill-dark" text="Parents" />
+                    <HBox alignment="CENTER_RIGHT" blendMode="SRC_OVER" prefHeight="-1.0" prefWidth="-1.0" styleClass="fn-14, fill-dark">
+                      <children>
+                        <HBox id="HBox" alignment="CENTER" spacing="5.0" HBox.hgrow="ALWAYS">
+                          <children>
+                            <Button mnemonicParsing="false" styleClass="back-transparent, fill-dark, fn-14" text="740" />
+                            <Text scaleX="1.0" scaleY="1.2530638154674498" strokeType="OUTSIDE" strokeWidth="0.0" text="GO" />
+                          </children>
+                        </HBox>
+                      </children>
+                      <stylesheets>
+                        <URL value="@apps.css" />
+                      </stylesheets>
+                    </HBox>
+                  </children>
+                </VBox>
+              </children>
+              <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+              </padding>
+              <stylesheets>
+                <URL value="@apps.css" />
+              </stylesheets>
+              <HBox.margin>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" fx:id="x1" />
+              </HBox.margin>
+            </HBox>
+            <HBox alignment="TOP_CENTER" minWidth="116.0" prefHeight="-1.0" prefWidth="183.0" styleClass="hover-dark-grey, hover-HANDD, back-Light-grey, hover-dark-Grey" HBox.margin="$x1">
+              <children>
+                <VBox id="VBox" alignment="TOP_CENTER" spacing="5.0">
+                  <children>
+                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="fn-24, fill-dark" text="Students" />
+                    <HBox alignment="CENTER_RIGHT" blendMode="SRC_OVER" prefHeight="-1.0" prefWidth="-1.0" styleClass="fn-14, fill-dark">
+                      <children>
+                        <HBox id="HBox" alignment="CENTER" spacing="5.0" HBox.hgrow="ALWAYS">
+                          <children>
+                            <Button mnemonicParsing="false" styleClass="back-transparent, fill-dark, fn-14" text="3k">
+                              <stylesheets>
+                                <URL value="@apps.css" />
+                              </stylesheets>
+                            </Button>
+                            <Text scaleX="1.0" scaleY="1.2530638154674498" strokeType="OUTSIDE" strokeWidth="0.0" text="GO" />
+                          </children>
+                        </HBox>
+                      </children>
+                      <stylesheets>
+                        <URL value="@apps.css" />
+                      </stylesheets>
+                    </HBox>
+                  </children>
+                </VBox>
+              </children>
+              <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+              </padding>
+              <stylesheets>
+                <URL value="@apps.css" />
+              </stylesheets>
+            </HBox>
+            <HBox alignment="TOP_CENTER" minWidth="103.0" prefHeight="-1.0" prefWidth="192.0" styleClass="hover-dark-grey, hover-HANDD, back-Light-grey, hover-dark-Grey" HBox.margin="$x1">
+              <children>
+                <VBox id="VBox" alignment="TOP_CENTER" spacing="5.0">
+                  <children>
+                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="fn-24, fill-dark" text="Classes" />
+                    <HBox alignment="CENTER_RIGHT" blendMode="SRC_OVER" prefHeight="-1.0" prefWidth="-1.0" styleClass="fn-14, fill-dark">
+                      <children>
+                        <HBox id="HBox" alignment="CENTER" spacing="5.0" HBox.hgrow="ALWAYS">
+                          <children>
+                            <Button mnemonicParsing="false" styleClass="back-transparent, fill-dark, fn-14" text="15" />
+                            <Text scaleX="1.0" scaleY="1.2530638154674498" strokeType="OUTSIDE" strokeWidth="0.0" text="GO" />
+                          </children>
+                        </HBox>
+                      </children>
+                      <stylesheets>
+                        <URL value="@apps.css" />
+                      </stylesheets>
+                    </HBox>
+                  </children>
+                </VBox>
+              </children>
+              <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+              </padding>
+              <stylesheets>
+                <URL value="@apps.css" />
+              </stylesheets>
+            </HBox>
+            <HBox alignment="TOP_CENTER" minWidth="121.0" prefHeight="-1.0" prefWidth="182.0" styleClass="hover-dark-grey, hover-HANDD, back-Light-grey, hover-dark-Grey" HBox.margin="$x1">
+              <children>
+                <VBox id="VBox" alignment="TOP_CENTER" spacing="5.0">
+                  <children>
+                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="fn-24, fill-dark" text="Subjects" />
+                    <HBox alignment="CENTER_RIGHT" blendMode="SRC_OVER" prefHeight="-1.0" prefWidth="-1.0" styleClass="fn-14, fill-dark">
+                      <children>
+                        <HBox id="HBox" alignment="CENTER" spacing="5.0" HBox.hgrow="ALWAYS">
+                          <children>
+                            <Button mnemonicParsing="false" styleClass="back-transparent, fill-dark, fn-14" text="15">
+                              <stylesheets>
+                                <URL value="@apps.css" />
+                              </stylesheets>
+                            </Button>
+                            <Text scaleX="1.0" scaleY="1.2530638154674498" strokeType="OUTSIDE" strokeWidth="0.0" text="GO" />
+                          </children>
+                        </HBox>
+                      </children>
+                      <stylesheets>
+                        <URL value="@apps.css" />
+                      </stylesheets>
+                    </HBox>
+                  </children>
+                </VBox>
+              </children>
+              <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+              </padding>
+              <stylesheets>
+                <URL value="@apps.css" />
+              </stylesheets>
+            </HBox>
+          </children>
+          <stylesheets>
+            <URL value="@apps.css" />
+          </stylesheets>
+        </HBox>
+        <HBox id="HBox" alignment="CENTER" spacing="5.0">
+          <children>
+            <HBox id="HBox" alignment="CENTER" spacing="5.0" styleClass="back-white">
+              <children>
+                <VBox prefHeight="395.0" prefWidth="378.0" HBox.hgrow="ALWAYS">
+                  <children>
+                    <Text scaleX="1.7295520684736092" scaleY="1.8137542829172786" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt-center, txt-left, txt-right" text="PARENTS">
+                      <VBox.margin>
+                        <Insets left="180.0" />
+                      </VBox.margin>
+                    </Text>
+                    <TextField fx:id="parent_search_t" prefWidth="200.0" promptText="search" styleClass="flat, back-white, border-2px, border-light-grey">
+                      <VBox.margin>
+                        <Insets bottom="5.0" top="10.0" />
+                      </VBox.margin>
+                    </TextField>
+                    <HBox id="HBox" alignment="TOP_LEFT" spacing="5.0">
+                      <children>
+                        <Button id="p1" fx:id="b1" mnemonicParsing="false" onAction="#add_parents" styleClass="hover-HANDD, fill-grey, fill-dark" text="ADD PARENTS" />
+                        <Button mnemonicParsing="false" onAction="#search_parent" text="Search">
+                          <HBox.margin>
+                            <Insets left="175.0" />
+                          </HBox.margin>
+                        </Button>
+                      </children>
+                    </HBox>
+                    <HBox alignment="CENTER_LEFT" prefHeight="-1.0" prefWidth="-1.0" styleClass="back-Light-grey, hover-HANDD, hover-dark-Grey">
+                      <children>
+                        <ImageView fitHeight="49.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                          <image>
+                            <Image url="@assests/images/parents.png" />
+                          </image>
+                        </ImageView>
+                        <VBox prefHeight="-1.0" prefWidth="-1.0">
+                          <children>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="PARENTS NAME" />
+                            <HBox prefHeight="20.0" prefWidth="-1.0" />
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CONTACT NO." />
+                          </children>
+                          <padding>
+                            <Insets left="5.0" right="5.0" />
+                          </padding>
+                        </VBox>
+                      </children>
+                      <padding>
+                        <Insets />
+                      </padding>
+                      <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" fx:id="x1" />
+                      </VBox.margin>
+                    </HBox>
+                    <HBox alignment="CENTER_LEFT" prefHeight="-1.0" prefWidth="-1.0" styleClass="back-Light-grey, hover-HANDD, hover-dark-Grey">
+                      <children>
+                        <ImageView fitHeight="48.999900000002526" fitWidth="48.999900000002526" pickOnBounds="true" preserveRatio="true">
+                          <image>
+                            <Image url="@assests/images/parents.png" />
+                          </image>
+                        </ImageView>
+                        <VBox prefHeight="-1.0" prefWidth="-1.0">
+                          <children>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="PARENTS NAME" />
+                            <HBox prefHeight="20.0" prefWidth="-1.0" />
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CONTACT NO." />
+                          </children>
+                          <padding>
+                            <Insets left="5.0" right="5.0" />
+                          </padding>
+                        </VBox>
+                      </children>
+                      <padding>
+                        <Insets />
+                      </padding>
+                      <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" fx:id="x1" />
+                      </VBox.margin>
+                    </HBox>
+                    <HBox alignment="CENTER_LEFT" prefHeight="-1.0" prefWidth="-1.0" styleClass="back-Light-grey, hover-HANDD, hover-dark-Grey">
+                      <children>
+                        <ImageView fitHeight="49.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                          <image>
+                            <Image url="@assests/images/parents.png" />
+                          </image>
+                        </ImageView>
+                        <VBox prefHeight="-1.0" prefWidth="-1.0">
+                          <children>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="PARENTS NAME" />
+                            <HBox prefHeight="20.0" prefWidth="-1.0" />
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CONTACT NO." />
+                          </children>
+                          <padding>
+                            <Insets left="5.0" right="5.0" />
+                          </padding>
+                        </VBox>
+                      </children>
+                      <padding>
+                        <Insets />
+                      </padding>
+                      <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" fx:id="x1" />
+                      </VBox.margin>
+                    </HBox>
+                    <HBox alignment="CENTER_LEFT" prefHeight="-1.0" prefWidth="-1.0" styleClass="back-Light-grey, hover-HANDD, hover-dark-Grey">
+                      <children>
+                        <ImageView fitHeight="49.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                          <image>
+                            <Image url="@assests/images/parents.png" />
+                          </image>
+                        </ImageView>
+                        <VBox prefHeight="-1.0" prefWidth="-1.0">
+                          <children>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="PARENTS NAME" />
+                            <HBox prefHeight="20.0" prefWidth="-1.0" />
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CONTACT NO." />
+                          </children>
+                          <padding>
+                            <Insets left="5.0" right="5.0" />
+                          </padding>
+                        </VBox>
+                      </children>
+                      <padding>
+                        <Insets />
+                      </padding>
+                      <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" fx:id="x1" />
+                      </VBox.margin>
+                    </HBox>
+                    <HBox alignment="CENTER_LEFT" prefHeight="-1.0" prefWidth="-1.0" styleClass="back-Light-grey, hover-HANDD, hover-dark-Grey">
+                      <children>
+                        <ImageView fitHeight="49.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                          <image>
+                            <Image url="@assests/images/parents.png" />
+                          </image>
+                        </ImageView>
+                        <VBox prefHeight="-1.0" prefWidth="-1.0">
+                          <children>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="PARENTS NAME" />
+                            <HBox prefHeight="20.0" prefWidth="-1.0" />
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CONTACT NO." />
+                          </children>
+                          <padding>
+                            <Insets left="5.0" right="5.0" />
+                          </padding>
+                        </VBox>
+                      </children>
+                      <padding>
+                        <Insets />
+                      </padding>
+                      <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" fx:id="x1" />
+                      </VBox.margin>
+                    </HBox>
+                  </children>
+                  <HBox.margin>
+                    <Insets right="10.0" />
+                  </HBox.margin>
+                </VBox>
+                <VBox prefHeight="395.0" prefWidth="533.0" HBox.hgrow="ALWAYS">
+                  <children>
+                    <Text scaleX="1.7295520684736092" scaleY="1.8137542829172786" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt-center, txt-left, txt-right" text="PARENTS DETAILS" VBox.vgrow="ALWAYS">
+                      <VBox.margin>
+                        <Insets bottom="20.0" left="150.0" right="20.0" />
+                      </VBox.margin>
+                    </Text>
+                    <HBox alignment="CENTER_LEFT" prefHeight="340.0" prefWidth="533.0" styleClass="hover-HANDD, back-Light-grey, hover-dark-Grey">
+                      <children>
+                        <VBox id="VBox" alignment="TOP_LEFT" spacing="5.0">
+                          <children>
+                            <ImageView fitHeight="111.99990000000253" fitWidth="111.99990000000253" pickOnBounds="true" preserveRatio="true">
+                              <image>
+                                <Image url="@assests/images/parents.png" />
+                              </image>
+                            </ImageView>
+                          </children>
+                        </VBox>
+                        <VBox prefHeight="-1.0" prefWidth="-1.0">
+                          <children>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="fn-18, fn-24" text="PARENTS  NAME" />
+                            <HBox prefHeight="20.0" prefWidth="-1.0" />
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="fn-18, fn-14" text="CONTACT">
+                              <VBox.margin>
+                                <Insets bottom="10.0" top="10.0" />
+                              </VBox.margin>
+                            </Text>
+                            <VBox prefHeight="264.0" prefWidth="328.0">
+                              <children>
+                                <HBox prefHeight="-1.0" prefWidth="-1.0">
+                                  <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FIRST NAME" />
+                                    <TextField fx:id="l1" prefWidth="200.0" />
+                                  </children>
+                                  <VBox.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" fx:id="x1" />
+                                  </VBox.margin>
+                                </HBox>
+                                <HBox prefHeight="-1.0" prefWidth="-1.0">
+                                  <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LAST NAME" />
+                                    <TextField fx:id="l2" prefWidth="200.0" />
+                                  </children>
+                                  <VBox.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" fx:id="x1" />
+                                  </VBox.margin>
+                                </HBox>
+                                <HBox prefHeight="-1.0" prefWidth="-1.0">
+                                  <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CITY" />
+                                    <TextField fx:id="l3" prefWidth="200.0" />
+                                  </children>
+                                  <VBox.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" fx:id="x1" />
+                                  </VBox.margin>
+                                </HBox>
+                                <HBox prefHeight="-1.0" prefWidth="-1.0">
+                                  <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MOBILE No." />
+                                    <TextField fx:id="l4" prefWidth="200.0" />
+                                  </children>
+                                  <VBox.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" fx:id="x1" />
+                                  </VBox.margin>
+                                </HBox>
+                                <HBox prefHeight="-1.0" prefWidth="-1.0">
+                                  <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="GUARDIAN OF" />
+                                    <TextField fx:id="l5" prefWidth="200.0" />
+                                  </children>
+                                  <VBox.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" fx:id="x1" />
+                                  </VBox.margin>
+                                </HBox>
+                                <HBox prefHeight="-1.0" prefWidth="-1.0">
+                                  <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SALARY" />
+                                    <TextField fx:id="l6" prefWidth="200.0" />
+                                  </children>
+                                  <VBox.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" fx:id="x1" />
+                                  </VBox.margin>
+                                </HBox>
+                              </children>
+                            </VBox>
+                          </children>
+                          <padding>
+                            <Insets left="5.0" right="5.0" />
+                          </padding>
+                        </VBox>
+                        <VBox prefHeight="-1.0" prefWidth="-1.0" HBox.hgrow="ALWAYS">
+                          <children>
+                            <VBox alignment="CENTER" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+                              <children>
+                                <VBox id="VBox" alignment="TOP_LEFT" prefHeight="-1.0" prefWidth="-1.0" spacing="5.0" />
+                                <Button id="edit_parent" mnemonicParsing="false" onAction="#delete_parent" styleClass="fill-red" text="DELETE">
+                                  <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" fx:id="x2" />
+                                  </VBox.margin>
+                                </Button>
+                                <Button id="edit_parent" mnemonicParsing="false" onAction="#edit_parent" styleClass="fill-green" text="EDIT" VBox.margin="$x2" />
+                              </children>
+                            </VBox>
+                          </children>
+                        </VBox>
+                      </children>
+                      <effect>
+                        <DropShadow height="37.19047812053135" radius="18.095238577751886" spread="0.30158730158730157" width="37.19047619047618">
+                          <input>
+                            <GaussianBlur radius="0.0" />
+                          </input>
+                        </DropShadow>
+                      </effect>
+                      <padding>
+                        <Insets />
+                      </padding>
+                      <VBox.margin>
+                        <Insets top="10.0" fx:id="x3" />
+                      </VBox.margin>
+                    </HBox>
+                  </children>
+                </VBox>
+              </children>
+              <padding>
+                <Insets bottom="5.0" top="5.0" />
+              </padding>
+              <stylesheets>
+                <URL value="@apps.css" />
+              </stylesheets>
+            </HBox>
+          </children>
+        </HBox>
+      </children>
+      <stylesheets>
+        <URL value="@apps.css" />
+      </stylesheets>
+    </VBox>
+    <ImageView fitHeight="43.423928124997474" fitWidth="57.89857083332996" layoutX="922.0" layoutY="14.0" onMouseClicked="#close" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@assests/images/logout.png" />
+      </image>
+    </ImageView>
+    <HBox id="HBox" alignment="CENTER" layoutX="376.0" spacing="5.0" AnchorPane.topAnchor="5.0">
+      <children>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="PARENTS">
+          <font>
+            <Font size="35.0" />
+          </font>
+          <HBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" fx:id="x1" />
+          </HBox.margin>
+        </Text>
+      </children>
+      <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" fx:id="x1" />
+      </padding>
+    </HBox>
+  </children>
+  <stylesheets>
+    <URL value="@dashboard.css" />
+  </stylesheets>
+</AnchorPane>
